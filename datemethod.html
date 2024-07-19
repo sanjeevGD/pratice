@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>
+            date method
+        </title>
+    </head>
+    <body>
+        Date method js
+    </body>
+    <script>
+        var obj=new Date()
+        var h=obj.getHours()
+        var m=obj.getMinutes()
+        var s=obj.getSeconds()
+
+        var dt=obj.getDate()
+        var mt=obj.getMonth()
+        var yr=obj.getFullYear()
+        
+        var time=obj.toLocaleTimeString()
+        var date=obj.toLocaleDateString()
+
+        document.write(h+":"+m+":"+s)
+        document.write("<br>")
+        document.write(dt+"/"+mt+"/"+yr)
+        document.write("<hr>")
+        document.write(time)
+        document.write("<br>")
+        document.write(date)
+
+
+    </script>
+</html>
